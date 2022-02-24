@@ -1,0 +1,35 @@
+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
+
+git status
+git init
+
+git add -A / git add --a / git add .
+git add <filename>
+
+git commit -m "<msg comment>"
+git commit -a -m "<msg comment>"
+
+git mv "file1" "file2"
+
+git rm <resource name>
+git rm -rf .git
+git rm --cached
+
+git diff
+git diff --staged
+
+git log
+git log -p
+git log -p -(no.)
+git log --pretty=oneline/short/full
+git log --since=2.days/weeks/months
+
+===> git-scm.com/docs/git-log (for format designing)
+
+git commit --amend (change the details of commit)
+
+
+git restore <file> (make the file unstaged from staged)
+
+git checkout -- <filename> (match the file with last commit's file)
+
